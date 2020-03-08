@@ -135,8 +135,8 @@ char *infix2Postfix(char *s)
 {
     char *buffer = (char*)malloc(strlen(s)*2); // 应该足够长了
     char *src = s, *des = buffer;
-    StackOfChar *operator = createStackOfChar(100);
-    StackOfChar *operand = createStackOfChar(100);
+    StackOfChar *operator = createStackOfChar(10000);
+    StackOfChar *operand = createStackOfChar(10000);
 
     for( ; *src; src++)
     {

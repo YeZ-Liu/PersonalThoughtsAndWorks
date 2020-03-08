@@ -17,7 +17,7 @@
 #include<stdlib.h>
 #include<string.h>
 
-#include"NFA_my.h"
+#include"NFA.h"
 #include"Infix2Postfix.h"
 
 // 当前状态集合,下一个转移的状态集合
